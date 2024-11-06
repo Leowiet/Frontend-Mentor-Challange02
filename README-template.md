@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [https://leowiet.github.io/Frontend-Mentor-Challange02/]
+- Solution URL: https://github.com/Leowiet/Frontend-Mentor-Challange02
+- Live Site URL: https://leowiet.github.io/Frontend-Mentor-Challange02/
 
 ## My process
 
