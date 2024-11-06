@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@700;800;900&display=swap');
+
+
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin:0 ;
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+
+}
+
+
+section{
+    background-color: hsl(0, 0%, 100%);
+    display: flex  ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin : 10rem auto ;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 8px 8px  hsl(0, 0%, 7%);
+    border: 1px solid hsl(  0, 0%, 7%);
+    
+
+}
+
+.btn{
+    background-color: hsl(47, 88%, 63%);
+    display: inline-block;
+    padding: 5px 15px;
+    
+    font-weight: 800;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+
+.date{
+    
+    margin-top: 15px;
+}
+
+.text h1{
+    font-weight: 800;
+    
+}
+
+img{
+    border-radius: 10px;
+}
+
+
+.arthur{
+    display: flex;
+    align-items: center;
+    margin-top: 15px
+    
+}
+
+.arthur img{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.arthur p{
+    font-weight: 800;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); text-decoration: none; }
+h1:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+
+    
+}
+
+
+
+@media (max-width: 480px) {
+    section {
+        padding: 20px; 
+        margin: 1rem auto;
+    }
+
+    .text h1 {
+        font-size: 1.5rem; 
+    }
+
+    .btn {
+        font-size: 0.8rem; 
+        padding: 4px 12px; 
+    }
+
+    img{
+        width: 100%;
+    }
+
+    .arthur img {
+        width: 30px; 
+    }
+
+    .arthur p {
+        font-size: 0.9rem; 
+    }
+}
+
